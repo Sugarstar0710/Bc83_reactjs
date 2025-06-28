@@ -7,6 +7,8 @@ import EventClick from './event-click/Index'
 import State from './State/Index'
 import ChangeColorCar from './Change-color-car/Index'
 import LitsKeys from './list-keys/Index'
+import Conmmiunication from './assets/Commiunication'
+import ShoppingPhone from './assets/shopping-phone'
 function App() {
   const [count, setCount] = useState(0)
 
@@ -20,6 +22,8 @@ function App() {
       <State/>  
       <ChangeColorCar/>
       <LitsKeys/>
+      <Conmmiunication/>
+      <ShoppingPhone/>
     </div>
   )
 }
